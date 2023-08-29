@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <!-- iconfont -->
+    <link rel="stylesheet" href="../assets/icofont/icofont.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <section class="container my-3 my-lg-8">
+      <div class="d-flex align-items-center justify-content-between border border-dark border-3 px-8 py-7">
+        <p class="fs-5 fs-sm-3 fs-lg-1">EVENT</p>
+        <p class="fs-7 fs-sm-5 fs-lg-4">所有活動</p>
+      </div>
+    </section>
+    
+    <article class="container my-3 my-lg-8">
+        <aside class="btn-group d-flex flex-wrap" role="group" aria-label="teg">
+            <button type="button" class="teg m-2 px-7">演出</button>
+            <button type="button" class="teg m-2 px-7">音樂</button>
+            <button type="button" class="teg m-2 px-7">舞蹈</button>
+            <button type="button" class="teg m-2 px-7">戲劇</button>
+            <button type="button" class="teg m-2 px-7">音樂會</button>
+            <button type="button" class="teg m-2 px-7">課程講座</button>
+            <button type="button" class="teg m-2 px-7">社群活動</button>
+            <button type="button" class="teg m-2 px-7">展覽</button>
+            <button type="button" class="teg m-2 px-7">研討會</button>
+            <button type="button" class="teg m-2 px-7">電影</button>
+            <button type="button" class="teg m-2 px-7">電音派對</button>
+            <button type="button" class="teg m-2 px-7">遊戲競賽</button>
+            <button type="button" class="teg m-2 px-7">親子</button>
+            <button type="button" class="teg m-2 px-7">藝文活動</button>
+            <button type="button" class="teg m-2 px-7">交通旅遊</button>
+            <button type="button" class="teg m-2 px-7">美食</button>
+            <button type="button" class="teg m-2 px-7">資訊科技</button>
+            <button type="button" class="teg m-2 px-7">聯誼</button>
+            <button type="button" class="teg m-2 px-7">戶外</button>
+            <button type="button" class="teg m-2 px-7">線上活動</button>  
+        </aside>
+    </article>
+
+    <!-- RECENT CARD -->
+    <main class="card-group container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+
+        <!-- card 01 -->
+        <div class="card col">
+          <time class="fs-4 fs-lg-3 border-bottom
+          btn-outline-black border-2 mb-3">23 MAY 2023</time>
+          <img src="../assets/images/event/01.jpg" class="card-img-top img-fluid eventcard" alt="event2">
+          <div class="card-body">
+              <p class="card-title fs-6 fs-lg-5">邪典電影派對——房間</p>
+              <p class="card-text font-TC">你有聽說過「大災難家」裡面的主角 Tommy Wiseau 製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...</p>
+              <div class="card-footer d-flex justify-content-between align-items-center border-bottom border-top btn-outline-black border-2 mt-5">
+                  <div class="left">
+                    <a href="#" class="d-flex align-items-center text-black py-2 ">
+                        <img src="../assets/images/sparkler.png" alt="sparkler" class="sparkler pe-1">
+                        <p>社群活動</p>
+                    </a>
+                  </div>
+                  <div class="right">
+                    <a class="sale d-flex align-items-center">
+                        <p class="fw-bold pe-2 font-TC">開賣中 > ></p>
+                    </a>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- card 02 -->
+          <div class="card col">
+              <time class="fs-4 fs-lg-3 border-bottom
+              btn-outline-black border-2 mb-3">23 MAY 2023</time>
+              <img src="../assets/images/event/02.jpg" class="card-img-top img-fluid eventcard" alt="event2">
+              <div class="card-body">
+                  <p class="card-title fs-5">怪舞俱樂部</p>
+                  <p class="card-text font-TC">覺得自己的舞蹈細胞異於常人？每次隨著音樂起舞身邊的人總是露出無法理解的表情？來這裡就對了！來參加這場一起跳舞的聚會，也會在每一次的舞會中選出舞步最怪的...</p>
+                  <div class="card-footer d-flex justify-content-between align-items-center border-bottom border-top btn-outline-black border-2 mt-5">
+                    <div class="left">
+                      <a href="#" class="d-flex align-items-center text-black py-2 ">
+                          <img src="../assets/images/sparkler.png" alt="sparkler" class="sparkler pe-1">
+                          <p>演出</p>
+                      </a>
+                    </div>
+                    <div class="right">
+                      <a class="sale d-flex align-items-center">
+                          <p class="fw-bold pe-2 font-TC">開賣中 > ></p>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+        <!-- card 03 -->
+          <div class="card col">
+              <time class="fs-4 fs-lg-3 border-bottom
+              btn-outline-black border-2 mb-3">30 MAY 2023</time>
+              <img src="../assets/images/event/03.jpg" class="card-img-top img-fluid eventcard" alt="event3">
+              <div class="card-body">
+                  <p class="card-title fs-5">哈利波特馬拉松</p>
+                  <p class="card-text font-TC">每次身邊有人開啟哈利波特的話題，自己永遠都是聽不懂的那個麻瓜？看大家在討論魁地奇、用咒語鬥法的時候，自己永遠是陪笑的那個人？穿好你的法袍、帶上你的法杖...</p>
+                  <div class="card-footer d-flex justify-content-between align-items-center border-bottom border-top btn-outline-black border-2 mt-5">
+                    <div class="left">
+                      <a href="#" class="d-flex align-items-center text-black py-2 ">
+                          <img src="../assets/images/sparkler.png" alt="sparkler" class="sparkler pe-1">
+                          <p>聯誼</p>
+                      </a>
+                    </div>
+                    <div class="right">
+                      <a class="sale d-flex align-items-center">
+                          <p class="fw-bold pe-2 font-TC">開賣中 > ></p>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- card 04 -->
+          <div class="card col">
+            <time class="fs-4 fs-lg-3 border-bottom
+            btn-outline-black border-2 mb-3">30 MAY 2023</time>
+            <img src="../assets/images/event/04.jpg" class="card-img-top img-fluid eventcard" alt="event4">
+            <div class="card-body">
+                <p class="card-title fs-5">皮卡丘排球大賽</p>
+                <p class="card-text font-TC">還記得小時候玩的小遊戲嗎？總是有朋友吹噓自己獨孤求敗、只求一敗？是時候該展現真正的實力了！本活動採用瑞士制賽程，以絕對公平的方式進行，是時候該證明自己...</p>
+                <div class="card-footer d-flex justify-content-between align-items-center border-bottom border-top btn-outline-black border-2 mt-5">
+                  <div class="left">
+                    <a href="#" class="d-flex align-items-center text-black py-2 ">
+                        <img src="../assets/images/sparkler.png" alt="sparkler" class="sparkler pe-1">
+                        <p>遊戲競賽</p>
+                    </a>
+                  </div>
+                  <div class="right">
+                    <a class="sale d-flex align-items-center">
+                        <p class="fw-bold pe-2 font-TC">開賣中 > ></p>
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+        <!-- card 05 -->
+        <div class="card col">
+          <time class="fs-4 fs-lg-3 border-bottom
+          btn-outline-black border-2 mb-3">30 MAY 2023</time>
+          <img src="../assets/images/event/05.jpg" class="card-img-top img-fluid eventcard" alt="event5">
+          <div class="card-body">
+              <p class="card-title fs-5">酒精路跑</p>
+              <p class="card-text font-TC">身邊總是有對自己酒量有高度自信的朋友嗎？拉著他/她一起來參加酒精路跑吧！一起拍下第一杯直到倒下為止的照片，一起喝遍市區內各家極具品味的酒吧。
+              </p>
+              <div class="card-footer d-flex justify-content-between align-items-center border-bottom border-top btn-outline-black border-2 mt-5">
+                <div class="left">
+                  <a href="#" class="d-flex align-items-center text-black py-2 ">
+                      <img src="../assets/images/sparkler.png" alt="sparkler" class="sparkler pe-1">
+                      <p>社群活動</p>
+                  </a>
+                </div>
+                <div class="right">
+                  <a class="sale d-flex align-items-center">
+                      <p class="fw-bold pe-2 font-TC">開賣中 > ></p>
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- card 06 -->
+        <div class="card col">
+          <time class="fs-4 fs-lg-3 border-bottom
+          btn-outline-black border-2 mb-3">30 MAY 2023</time>
+          <img src="../assets/images/event/06.jpg" class="card-img-top img-fluid eventcard" alt="event6">
+          <div class="card-body">
+              <p class="card-title fs-5">展覽——我的房間</p>
+              <p class="card-text font-TC">每個人的房間總會有那麼一兩個能代表自己的物事，或許是再平凡不過的牙刷、馬克杯，或許有那些別人的房間從沒出現過的小東西——那些能定義自己的特別的東西。</p>
+              <div class="card-footer d-flex justify-content-between align-items-center border-bottom border-top btn-outline-black border-2 mt-5">
+                <div class="left">
+                  <a href="#" class="d-flex align-items-center text-black py-2 ">
+                      <img src="../assets/images/sparkler.png" alt="sparkler" class="sparkler pe-1">
+                      <p>展覽</p>
+                  </a>
+                </div>
+                <div class="right">
+                  <a class="sale d-flex align-items-center">
+                      <p class="fw-bold pe-2 font-TC">開賣中 > ></p>
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- card 07 -->
+        <div class="card col">
+            <time class="fs-4 fs-lg-3 border-bottom
+            btn-outline-black border-2 mb-3">30 MAY 2023</time>
+            <img src="../assets/images/event/07.jpg" class="card-img-top img-fluid eventcard" alt="event7">
+            <div class="card-body">
+                <p class="card-title fs-5">野外求生17天</p>
+                <p class="card-text font-TC">野外求生體驗，我們將在沒有水、沒有電的自然環境裡，學習各項生存技能，課程內容包含生火、水源取得及淨化、射箭、木食器製作、無具野炊、野地編繩和狩獵技能...</p>
+                <div class="card-footer d-flex justify-content-between align-items-center border-bottom border-top btn-outline-black border-2 mt-5">
+                  <div class="left">
+                    <a href="#" class="d-flex align-items-center text-black py-2 ">
+                        <img src="../assets/images/sparkler.png" alt="sparkler" class="sparkler pe-1">
+                        <p>戶外</p>
+                    </a>
+                  </div>
+                  <div class="right">
+                    <a class="sale d-flex align-items-center">
+                        <p class="fw-bold pe-2 font-TC">開賣中 > ></p>
+                    </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- card 08 -->
+        <div class="card col">
+            <time class="fs-4 fs-lg-3 border-bottom
+            btn-outline-black border-2 mb-3">30 MAY 2023</time>
+            <img src="../assets/images/event/08.jpg" class="card-img-top img-fluid eventcard" alt="event8">
+            <div class="card-body">
+                <p class="card-title fs-5">耳熟能詳音樂祭</p>
+                <p class="card-text font-TC">對你來說聽都沒聽過的團，但是音樂一下保證跟著唱，重磅邀請各界隱藏天籟歌手、天團，不想曬太陽也可以在樹下當 KTV 跟著唱，唱不出來服務台報到立馬退費！</p>
+                <div class="card-footer d-flex justify-content-between align-items-center border-bottom border-top btn-outline-black border-2 mt-5">
+                  <div class="left">
+                    <a href="#" class="d-flex align-items-center text-black py-2 ">
+                        <img src="../assets/images/sparkler.png" alt="sparkler" class="sparkler pe-1">
+                        <p>演出</p>
+                    </a>
+                  </div>
+                  <div class="right">
+                    <a class="sale d-flex align-items-center">
+                        <p class="fw-bold pe-2 font-TC">開賣中 > ></p>
+                    </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- card 09 -->
+        <div class="card col">
+            <time class="fs-4 fs-lg-3 border-bottom
+            btn-outline-black border-2 mb-3">30 MAY 2023</time>
+            <img src="../assets/images/event/09.jpg" class="card-img-top img-fluid eventcard" alt="event9">
+            <div class="card-body">
+                <p class="card-title fs-5">野營發呆大賽</p>
+                <p class="card-text font-TC">你也是那種動不動就容易放空、神遊的人嗎？這輩子靠這技能出頭的機會來了，在恆春山林一起神遊、盡情地發呆吧！冠軍可以得到價值十萬的綿豆腐床墊一張！</p>
+                <div class="card-footer d-flex justify-content-between align-items-center border-bottom border-top btn-outline-black border-2 mt-5">
+                  <div class="left">
+                    <a href="#" class="d-flex align-items-center text-black py-2 ">
+                        <img src="../assets/images/sparkler.png" alt="sparkler" class="sparkler pe-1">
+                        <p>遊戲競賽</p>
+                    </a>
+                  </div>
+                  <div class="right">
+                    <a class="sale d-flex align-items-center">
+                        <p class="fw-bold pe-2 font-TC">開賣中 > ></p>
+                    </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </main>     
+
+
+    <div class="container">
+        <div class="btn-toolbar mb-3 position-relative mt-60" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2 position-absolute top-100 start-50 translate-middle" role="group" aria-label="First group">
+              <button type="button" class="btn btn-outline-dark">
+                    <i class="icofont-arrow-left"></i>
+              </button>
+              <button type="button" class="btn btn-outline-dark ms-2">1</button>
+              <button type="button" class="btn btn-outline-dark ms-2">2</button>
+              <button type="button" class="btn btn-outline-dark ms-2">3</button>
+              <button type="button" class="btn btn-outline-dark ms-2">4</button>
+              <button type="button" class="btn btn-outline-dark ms-2">
+                <i class="icofont-arrow-right"></i>
+              </button>
+            </div>
+        </div>    
+    </div>
+
+
+    <%- include('./layout/footer'); -%>
+
+  <script type="module" src="../main.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
+ 

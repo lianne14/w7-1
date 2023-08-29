@@ -1,0 +1,11 @@
+.navbar img{
+  width: 53px;
+}
+
+form{
+  width: 335px;
+  @include mobile(){
+    width: 50%;
+    margin: 0 auto;
+  }
+}

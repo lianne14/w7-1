@@ -1,0 +1,21 @@
+* , *:befor , *:after  {
+	box-sizing: border-box;
+}
+
+img{
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.full{
+    width: 100%;
+}
+
+.font-TC{
+    font-family: $font-family-monospace;
+}

@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC:wght@700&family=Yeseva+One&display=swap");
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import './utils/variables';
+@import './utils/utilities';
+@import './utils/base';
+@import './utils/mixins';
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import './layout/header';
+@import './layout/footer';
+@import './layout/eventcard';
+@import './pages/index';  
+@import './layout/swiper';
+
+@import url("https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js");
